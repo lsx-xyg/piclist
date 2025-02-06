@@ -138,7 +138,7 @@
     "server": {
       "port": 36677,
       "host": "0.0.0.0",
-      "enable": true
+      "enable": false
     },
     "isListeningClipboard": false,
     "showUpdateTip": false,
@@ -154,8 +154,13 @@
     },
     "manualPageOpen": "window",
     "aesPassword": "lsx-xyg",
-    "deleteCloudFile": false,
-    "uploadResultNotification": false
+    "deleteCloudFile": true,
+    "uploadResultNotification": true,
+    "isCustomMiniIcon": false,
+    "autoCloseMiniWindow": true,
+    "autoCloseMainWindow": true,
+    "startMode": "mini",
+    "miniWindowOntop": true
   },
   "picgoPlugins": {},
   "debug": true,
