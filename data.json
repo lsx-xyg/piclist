@@ -154,7 +154,8 @@
     },
     "manualPageOpen": "window",
     "aesPassword": "lsx-xyg",
-    "deleteCloudFile": false
+    "deleteCloudFile": false,
+    "uploadResultNotification": false
   },
   "picgoPlugins": {},
   "debug": true,
