@@ -1,9 +1,129 @@
 {
   "picBed": {
-    "current": "smms",
-    "uploader": "smms",
+    "current": "local",
+    "uploader": "local",
     "smms": {
-      "token": ""
+      "token": "",
+      "_configName": "Default",
+      "_id": "c44d75e1-aa0d-4cd4-9cc4-25da7e1bebcb",
+      "_createdAt": 1738830494973,
+      "_updatedAt": 1738830494973
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "advancedplist",
+        "name": "高级自定义",
+        "visible": false
+      },
+      {
+        "type": "alistplist",
+        "name": "AList",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": true
+      },
+      {
+        "type": "aws-s3-plist",
+        "name": "AWS S3",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": true
+      },
+      {
+        "type": "lskyplist",
+        "name": "兰空图床",
+        "visible": false
+      },
+      {
+        "type": "piclist",
+        "name": "PicList",
+        "visible": false
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      }
+    ],
+    "advancedplist": {
+      "_configName": "Default",
+      "_id": "12534c64-a07d-4239-9118-09ba65112bf5",
+      "_createdAt": 1738830436339,
+      "_updatedAt": 1738830436339
+    },
+    "aliyun": {
+      "_configName": "lsx",
+      "_id": "bbc7db02-b9c7-464d-a10a-74e1279e7dac",
+      "_createdAt": 1738830436715,
+      "_updatedAt": 1738832514202,
+      "accessKeyId": "LTAI5tCpPuwMyupMBWuJ3MHT",
+      "accessKeySecret": "zkFy2ER8HMQLsL3r6oieer6e4AeOoI",
+      "bucket": "lsx",
+      "area": "oss-cn-shanghai",
+      "path": "img/",
+      "customUrl": "",
+      "options": ""
+    },
+    "github": {
+      "_configName": "lsx-xyg/piclist",
+      "_id": "ef633e99-01f1-4f4b-a61f-90d189863a21",
+      "_createdAt": 1738830437756,
+      "_updatedAt": 1738830491377,
+      "repo": "piclist",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": ""
+    },
+    "local": {
+      "_configName": "Default",
+      "_id": "937f16f5-2771-4b06-aeff-3496d85cd1df",
+      "_createdAt": 1738832518839,
+      "_updatedAt": 1738832632658,
+      "path": "E:\\data\\Img\\piclist",
+      "customUrl": "",
+      "webPath": ""
     }
   },
   "settings": {
@@ -21,10 +141,97 @@
       "enable": true
     },
     "isListeningClipboard": false,
-    "showUpdateTip": true
+    "showUpdateTip": false,
+    "sync": {
+      "type": "github",
+      "username": "lsx-xyg",
+      "repo": "piclist",
+      "branch": "conf",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60
+    },
+    "manualPageOpen": "window",
+    "aesPassword": "lsx-xyg",
+    "deleteCloudFile": false,
+    "uploadResultNotification": false
   },
   "picgoPlugins": {},
   "debug": true,
   "PICGO_ENV": "GUI",
-  "needReload": false
+  "needReload": false,
+  "uploader": {
+    "advancedplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "12534c64-a07d-4239-9118-09ba65112bf5",
+          "_createdAt": 1738830436339,
+          "_updatedAt": 1738830436339
+        }
+      ],
+      "defaultId": "12534c64-a07d-4239-9118-09ba65112bf5"
+    },
+    "aliyun": {
+      "configList": [
+        {
+          "_configName": "lsx",
+          "_id": "bbc7db02-b9c7-464d-a10a-74e1279e7dac",
+          "_createdAt": 1738830436715,
+          "_updatedAt": 1738832514202,
+          "accessKeyId": "LTAI5tCpPuwMyupMBWuJ3MHT",
+          "accessKeySecret": "zkFy2ER8HMQLsL3r6oieer6e4AeOoI",
+          "bucket": "lsx",
+          "area": "oss-cn-shanghai",
+          "path": "img/",
+          "customUrl": "",
+          "options": ""
+        }
+      ],
+      "defaultId": "bbc7db02-b9c7-464d-a10a-74e1279e7dac"
+    },
+    "github": {
+      "configList": [
+        {
+          "_configName": "lsx-xyg/piclist",
+          "_id": "ef633e99-01f1-4f4b-a61f-90d189863a21",
+          "_createdAt": 1738830437756,
+          "_updatedAt": 1738830491377,
+          "repo": "piclist",
+          "branch": "main",
+          "token": "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",
+          "path": "img/",
+          "customUrl": ""
+        }
+      ],
+      "defaultId": "ef633e99-01f1-4f4b-a61f-90d189863a21"
+    },
+    "smms": {
+      "configList": [
+        {
+          "token": "",
+          "_configName": "Default",
+          "_id": "c44d75e1-aa0d-4cd4-9cc4-25da7e1bebcb",
+          "_createdAt": 1738830494973,
+          "_updatedAt": 1738830494973
+        }
+      ],
+      "defaultId": "c44d75e1-aa0d-4cd4-9cc4-25da7e1bebcb"
+    },
+    "local": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "937f16f5-2771-4b06-aeff-3496d85cd1df",
+          "_createdAt": 1738832518839,
+          "_updatedAt": 1738832632658,
+          "path": "E:\\data\\Img\\piclist",
+          "customUrl": "",
+          "webPath": ""
+        }
+      ],
+      "defaultId": "937f16f5-2771-4b06-aeff-3496d85cd1df"
+    }
+  }
 }
